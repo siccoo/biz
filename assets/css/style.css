@@ -70,11 +70,18 @@
     color: #556;
 }
 
-#about btn {
+#about .btn {
     margin-top: 20px;
     margin-bottom: 30px;
+    background-color: #12143D;
+    border: #12143D;
 }
 
 .about-content {
     padding-top: 20px;
+}
+
+#about .bar-1 {
+    width: 90%;
+    background-color: #12143D;
 }
