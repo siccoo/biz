@@ -62,3 +62,19 @@
     color: #fff;
     font-size: 25px;
 }
+
+/* ABOUT SECTION STYLING */
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #556;
+}
+
+#about btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    padding-top: 20px;
+}
