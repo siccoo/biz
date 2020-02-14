@@ -25,7 +25,7 @@
 }
 
 #nav-bar ul li a:hover {
-    color: #007bff !important;
+    color: #12143D !important;
 }
 
 .navbar {
@@ -122,4 +122,29 @@
 #about .bar-5 {
     width: 70%;
     background-color: #12143D;
+}
+
+/* SERVICES SECTION STYLING */
+#services {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/back2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #efefef !important;
+}
+
+#services h1::after {
+    content: "";
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 220px;
+    margin: 20px auto 5px;
 }
