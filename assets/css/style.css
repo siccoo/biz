@@ -1,3 +1,10 @@
+/* 
+    Author: Chilaka Michael Obinna	
+    Author URL: github.com/siccoo	
+    Version: 1.0.0	Version: 1.0.0
+    Website:
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -144,6 +151,58 @@
 #services h1::after {
     content: "";
     background: #efefef;
+    display: block;
+    height: 3px;
+    width: 220px;
+    margin: 20px auto 5px;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 30%;
+}
+
+/* .icon i {
+    margin-top: 0px 0;
+    padding-top: 10px;
+} */
+
+#services p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.services .col-md-3:hover {
+    background: #12143D;
+    cursor: pointer;
+    transition: 2s;
+}
+
+/* TEAM MEMBERS SECTION STYLING */
+#team {
+    padding: 50px;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #555 !important;
+}
+
+h1::after {
+    content: "";
+    background: #12143D;
     display: block;
     height: 3px;
     width: 220px;
