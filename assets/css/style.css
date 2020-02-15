@@ -263,6 +263,7 @@ h1::after {
 .img-box ul li {
     padding: 2px;
     display: inline-block;
+    margin-bottom: 150px;
 }
 
 .img-box:hover ul {
