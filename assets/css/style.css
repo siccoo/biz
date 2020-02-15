@@ -244,5 +244,31 @@ h1::after {
 #team .fa {
     height: 25px;
     width: 25px;
-    color: #12143D
+    color: #12143D !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%; 
+}
+
+.img-box ul {
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    padding: 2px;
+    display: inline-block;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li {
+    transition: 0.7s;
 }
