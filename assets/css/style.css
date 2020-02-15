@@ -277,4 +277,12 @@ h1::after {
 /* ALBUM SECTION STYLING */
 #albums {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/back1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
