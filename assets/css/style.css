@@ -273,3 +273,8 @@ h1::after {
 .img-box ul, .img-box ul li {
     transition: 0.7s;
 }
+
+/* ALBUM SECTION STYLING */
+#albums {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/back1.jpg');
+}
