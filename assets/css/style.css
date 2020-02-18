@@ -350,6 +350,18 @@ h1::after {
 }
 
 .artist-content ul li {
-    
+    border-bottom: 1px solid #efefef;
+    padding: 10px 10px;
+    list-style: none;
+}
+
+ul li:last-child {
+    border: none;
+}
+
+.fa-check-circle {
+    color: #12143D;
+    margin-right: 5px;
+    font-size: 10px;
 }
 
