@@ -365,3 +365,28 @@ ul li:last-child {
     font-size: 10px;
 }
 
+.artist-button {
+    display: inline;
+    float: left;
+    padding: 5px 5px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.buy-btn {
+    background-color: #22266b;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 12px;
+    transition: 0.7s;
+}
+
+.buy-btn:hover {
+    border-color: 1px solid #fff;
+    background-color: #12143D;
+}
+
+a {
+    text-decoration: none !important;
+}
