@@ -287,6 +287,13 @@ h1::after {
     font-size: 25px;
 }
 
+#albums .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #12143D;
+    border: #12143D;
+}
+
 /* ARTIST SECTION STYLING */
 #artist {
     padding: 40px 0;
@@ -307,5 +314,42 @@ h1::after {
 }
 
 .artist-head {
-
+    background-color: #22266b;
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;   
 }
+
+.artist-head h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.artist-head p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#artist span {
+    font-size: 14px;
+}
+
+.artist-content {
+    display: inline;
+    float: left;
+    width: 100;
+    padding: 0 15px;
+}
+
+.artist-content ul li {
+    
+}
+
