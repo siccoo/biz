@@ -380,13 +380,16 @@ ul li:last-child {
     font-size: 20px;
     padding: 8px 12px;
     transition: 0.7s;
+    color: #fff;
 }
 
 .buy-btn:hover {
     border-color: 1px solid #fff;
     background-color: #12143D;
+    /* color: #fff; */
 }
 
 a {
     text-decoration: none !important;
+    color: #fff !important;
 }
