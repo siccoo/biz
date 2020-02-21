@@ -475,3 +475,25 @@ blockquote::before {
     cursor: pointer;
     transition: 0.7s;
 }
+
+/* CONTACT US SECTION STYLING */
+#contact {
+    background: #535353;
+    padding: 40px 0;
+    color: #efefef !important;
+}
+
+#contact h1 {
+    text-align: center;
+    color: #fff !important;
+}
+
+#contact h1::after {
+    content: "";
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 220px;
+    margin: 20px auto 5px;
+}
+
