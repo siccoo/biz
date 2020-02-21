@@ -365,6 +365,12 @@ ul li:last-child {
     font-size: 10px;
 }
 
+.fa-times-circle {
+    color: #ff3000;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
 .artist-button {
     display: inline;
     float: left;
