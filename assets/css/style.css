@@ -497,3 +497,16 @@ blockquote::before {
     margin: 20px auto 5px;
 }
 
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
