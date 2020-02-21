@@ -403,8 +403,8 @@ a {
 /* ARTIST TESTIMONIALS */
 
 #testimonials {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #testimonials .row {
@@ -444,3 +444,17 @@ a {
     color: #000;
 }
 
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before {
+    content: '\93';
+    font-size: 50px;
+    color: #12143D;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
