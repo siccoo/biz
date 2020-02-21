@@ -510,3 +510,25 @@ blockquote::before {
     color: #999 !important;
 }
 
+.follow {
+    /* background: #fff; */
+    margin: 15px;
+    padding: 10px;
+}
+
+.contact-info .fa {
+    margin: 10px;
+    color: #12143D;
+    font-weight: bold;
+}
+
+#footer {
+    background: #12143D;
+    color: #fff;
+    padding: 12px;
+}
+
+.fa-heart-o {
+    margin: 3px;
+    color: #12143D;
+}
