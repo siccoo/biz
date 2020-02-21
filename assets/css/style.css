@@ -402,7 +402,15 @@ a {
 
 /* ARTIST TESTIMONIALS */
 
-#artist-testimonials {
+#testimonials {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
 }
