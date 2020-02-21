@@ -450,11 +450,28 @@ blockquote {
 }
 
 blockquote::before {
-    content: '\93';
+    /* content: '\93'; */
+    text-align: justify;
     font-size: 50px;
     color: #12143D;
     position: relative;
     line-height: 20px;
     bottom: -15px;
     right: 5px;
+}
+
+/* blockquote::after {
+    content: '\94';
+    font-size: 50px;
+    color: #12143D;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+} */
+
+.user-profile:hover {
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: 0.7s;
 }
