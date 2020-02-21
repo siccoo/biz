@@ -399,3 +399,10 @@ a {
     text-decoration: none !important;
     color: #fff !important;
 }
+
+/* ARTIST TESTIMONIALS */
+
+#artist-testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
