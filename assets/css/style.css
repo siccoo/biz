@@ -510,6 +510,17 @@ blockquote::before {
     color: #999 !important;
 }
 
+.contact-form .btn {
+    background: #12143D;
+    border: 1px solid #12143D;
+}
+
+.contact-form .btn:hover  {
+    background: #12143D;
+    border: 1px solid #12143D;
+}
+
+
 .follow {
     /* background: #fff; */
     margin: 15px;
